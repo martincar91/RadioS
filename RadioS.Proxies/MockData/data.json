@@ -1,0 +1,201 @@
+{
+  "tenants": [
+    {
+      "tenantId": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "clients": [
+        {
+          "clientId": "b3d0f8b2-87b8-4c5a-9e89-7d4f1d017c7e",
+          "clientVAT": "VAT001",
+          "registrationNumber": "REG123456",
+          "companyType": "medium",
+          "companyName": "Medium Business Inc.",
+          "documents": [
+            {
+              "documentId": "d63f91d2-8aeb-42e3-970a-1d2f5f6f6d7f",
+              "productCode": "ProductA",
+              "content": {
+                "account_number": "12345678",
+                "balance": 25000.00,
+                "currency": "USD",
+                "transactions": [
+                  {
+                    "transaction_id": "T001",
+                    "amount": 150.00,
+                    "date": "01/01/2024",
+                    "description": "Office Supplies",
+                    "category": "Office"
+                  },
+                  {
+                    "transaction_id": "T002",
+                    "amount": -75.00,
+                    "date": "15/01/2024",
+                    "description": "Utilities",
+                    "category": "Utilities"
+                  }
+                ]
+              }
+            },
+            {
+              "documentId": "e76b9e8f-fb26-4d2b-b8f7-7e3e2b3e8b29",
+              "productCode": "ProductB",
+              "content": {
+                "account_number": "87654321",
+                "balance": 12000.00,
+                "currency": "USD",
+                "transactions": [
+                  {
+                    "transaction_id": "T003",
+                    "amount": 500.00,
+                    "date": "05/01/2024",
+                    "description": "Consulting",
+                    "category": "Services"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "clientId": "f2ac4b3d-431d-4b53-853b-5e0c989b8f84",
+          "clientVAT": "VAT002",
+          "registrationNumber": "REG654321",
+          "companyType": "small",
+          "companyName": "Small Enterprise Ltd.",
+          "documents": [
+            {
+              "documentId": "8b5a2f7e-081b-4391-8c56-3eac5bdb58a5",
+              "productCode": "ProductB",
+              "content": {
+                "account_number": "13579246",
+                "balance": 32000.00,
+                "currency": "EUR",
+                "transactions": [
+                  {
+                    "transaction_id": "T004",
+                    "amount": 200.00,
+                    "date": "10/01/2024",
+                    "description": "Travel Expenses",
+                    "category": "Travel"
+                  }
+                ]
+              }
+            },
+            {
+              "documentId": "cbe6c3f6-ef2e-4d2e-b7c0-58ac8c4b39a4",
+              "productCode": "ProductB",
+              "content": {
+                "account_number": "24681357",
+                "balance": 15000.00,
+                "currency": "EUR",
+                "transactions": [
+                  {
+                    "transaction_id": "T005",
+                    "amount": -300.00,
+                    "date": "20/01/2024",
+                    "description": "Equipment Purchase",
+                    "category": "Equipment"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tenantId": "a19d62e6-5b36-4b4b-8f2d-7c4b1c6b839d",
+      "clients": [
+        {
+          "clientId": "9e4d5277-0b0b-4d1a-9b8d-f6b8a29d740a",
+          "clientVAT": "VAT003",
+          "registrationNumber": "REG789012",
+          "companyType": "large",
+          "companyName": "Large Corporation PLC",
+          "documents": [
+            {
+              "documentId": "e7b4a773-26c7-42b7-bf38-f8f493b1c4d2",
+              "productCode": "ProductA",
+              "content": {
+                "account_number": "56789012",
+                "balance": 45000.00,
+                "currency": "GBP",
+                "transactions": [
+                  {
+                    "transaction_id": "T006",
+                    "amount": 300.00,
+                    "date": "12/01/2024",
+                    "description": "Marketing",
+                    "category": "Marketing"
+                  }
+                ]
+              }
+            },
+            {
+              "documentId": "d85d6c9f-8b44-4b6f-bbaf-5b3d2d3b4f45",
+              "productCode": "ProductB",
+              "content": {
+                "account_number": "09876543",
+                "balance": 8000.00,
+                "currency": "GBP",
+                "transactions": [
+                  {
+                    "transaction_id": "T007",
+                    "amount": -100.00,
+                    "date": "25/01/2024",
+                    "description": "Legal Fees",
+                    "category": "Legal"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "clientId": "8d7a4e9c-5f4d-4c21-8a1b-1a776b62e5c3",
+          "clientVAT": "VAT004",
+          "registrationNumber": "REG345678",
+          "companyType": "medium",
+          "companyName": "Medium Tech Solutions",
+          "documents": [
+            {
+              "documentId": "cde7e2a2-005e-438b-b4d8-6e6fa2b7b7ef",
+              "productCode": "ProductA",
+              "content": {
+                "account_number": "34567890",
+                "balance": 22000.00,
+                "currency": "CAD",
+                "transactions": [
+                  {
+                    "transaction_id": "T008",
+                    "amount": 750.00,
+                    "date": "18/01/2024",
+                    "description": "Software License",
+                    "category": "Software"
+                  }
+                ]
+              }
+            },
+            {
+              "documentId": "a437b2b0-0f9b-41d4-9f91-61e66b77e48b",
+              "productCode": "ProductB",
+              "content": {
+                "account_number": "98765432",
+                "balance": 16000.00,
+                "currency": "CAD",
+                "transactions": [
+                  {
+                    "transaction_id": "T009",
+                    "amount": -200.00,
+                    "date": "30/01/2024",
+                    "description": "Office Renovation",
+                    "category": "Renovation"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

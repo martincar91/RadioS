@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>d7b5a639-d4a1-4563-b5e1-743922c094d5</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\RadioS.Application\RadioS.Application.csproj" />
+    <ProjectReference Include="..\..\RadioS.Persistence\RadioS.Persistence.csproj" />
+    <ProjectReference Include="..\..\RadioS.Presentation\RadioS.Presentation.csproj" />
+    <ProjectReference Include="..\..\RadioS.Proxies\RadioS.Proxies.csproj" />
+  </ItemGroup>
+
+</Project>
